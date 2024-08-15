@@ -1,15 +1,25 @@
-import { useState } from 'react'
-import Header from './Header/Header.jsx'
-import Section from './Section/Section.jsx'
+//Importo librerias
+import React from 'react'
+import { Routes, Route} from 'react-router-dom'
+//Importo componentes
+import Header from './Components/Header/Header.jsx'
+import Section from './Components/Section/Section.jsx'
+import Footer from './Components/Footer/Footer.jsx'
+import AboutMe from './Pages/AboutMe.jsx'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <Header />
-    <Section />
+    <Header/>
+    <Section/>
+    <AboutMe/>
+    <Footer/>
+    <Routes>
+    
+    </Routes>
+    
+
     </>
   )
 }
