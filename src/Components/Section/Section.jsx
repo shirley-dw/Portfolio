@@ -23,7 +23,6 @@ const Section = () => {
                         Mi pasion es la programación y resolucion de problemas del cliente.
                     </p>
                     <div className='container-btn'>
-
                         <a href="">Mis trabajos</a>
                         <a href="#about">Conoceme</a>
                     </div>
@@ -35,8 +34,6 @@ const Section = () => {
                         <a href="www.linkedin.com/in/shirley-vokac"> <FiLinkedin /></a>
                         <a href="https://x.com/Shirvokac_"><RiTwitterXLine /></a>
                         <a href="https://www.facebook.com/ShiirVokac"><FiFacebook /></a>
-
-
                     </div>
                 </div>
             </div>

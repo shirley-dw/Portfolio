@@ -6,6 +6,7 @@ import Header from './Components/Header/Header.jsx'
 import Section from './Components/Section/Section.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 import AboutMe from './Pages/AboutMe.jsx'
+import Projects from './Pages/Projects.jsx'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Header/>
     <Section/>
     <AboutMe/>
+    <Projects/>
     <Footer/>
     <Routes>
     
