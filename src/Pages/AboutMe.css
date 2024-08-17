@@ -1,8 +1,8 @@
 /* Style the about me */
 
 :root {
-    --PrimaryColor: #000814;
-    --SecondaryColor: #ffffff;
+    --PrimaryColor: black;
+    --SecondaryColor: #0076F3;
     --FontPrimary: "Oswald", sans-serif;
     --FontSecondary: "Source Sans pro", sans-serif;
 }
@@ -76,9 +76,12 @@ section {
 }
 
 .data .btn:hover {
-    background-color: var(--SecondaryColor);
-    color: var(--PrimaryColor);
-    font-weight: 600;
+    transform: translateX(-5px); 
+    background-color: #0076F3;
+    color: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 .title-about {

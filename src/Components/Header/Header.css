@@ -13,6 +13,7 @@
     --PrimaryColor: #405D72;
     --SecondaryColor: #758694;
     --TertiaryColor: #F7E7DC;
+    --NavColor: linear-gradient(270deg, rgba(0,0,0,1) 0%, #0076F3 0%, rgba(0,0,0,0.9473039215686274) 44%);
     --FontPrimary: "Oswald", sans-serif;
     --FontSecondary: "Source Sans 3", sans-serif;
 }
@@ -24,9 +25,8 @@
     align-items: center;
     max-width: 100vw;
     padding: 2rem 1.5rem;
-    background: rgb(86, 37, 120);
-    background: radial-gradient(circle, rgba(86, 37, 120, 1) 0%, rgba(120, 26, 61, 1) 74%, rgba(41, 12, 12, 1) 100%);
-
+    background: black;
+    background: var(--NavColor);
 }
 
 .navbar {
@@ -39,7 +39,7 @@
 
 .navbar .logo-name {
     font-family: var(--FontPrimary);
-    color: white;
+    color: #0076F3;
     font-size: 1.5rem;
 
 }
@@ -69,7 +69,7 @@
 }
 
 .nav-item a:hover {
-    color: rgb(19, 17, 77);
+    color: yellow;
 }
 
 .icons {

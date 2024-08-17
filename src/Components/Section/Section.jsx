@@ -28,7 +28,7 @@ const Section = () => {
                     </div>
                 </div>
                 <div className='section-img'>
-                    <img src="./imagenes/profile.png" alt="" />
+                    <img src="./imagenes/profile.png" alt="" className='profile-img' />
                     <div className='container-icons'>
                         <a href="https://github.com/shirley-dw"><LuGithub /></a>
                         <a href="www.linkedin.com/in/shirley-vokac"> <FiLinkedin /></a>

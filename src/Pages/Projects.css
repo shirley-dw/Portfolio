@@ -11,54 +11,94 @@
     box-sizing: border-box;
 }
 
-
 .projects-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 100vw;
-    background-color: var(--PrimaryColor);
+    padding: 0.5rem 1rem;
 }
+
 .projects-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     max-width: 1000px;
     padding: 1rem 1.5rem;
 }
-.projects-info {
-    display: grid;
-    grid-column: 7 / -1;
-    grid-row: 1 / 2;
-    justify-content: flex-end;
-    max-width: 50vw;
+.projects-todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
 }
+.whatsapp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.snake{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+ 
 
-
+.hostinger{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
 .projects-title {
     font-family: var(--FontPrimary);
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 700;
+    color: #0076F3;
+    font-size: 2rem;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    padding: 10px;
 }
 
-.projects-img {
-    width: 50vw;
-    padding: 2rem 1.5rem;
-}
-
-
-.projects-link {
+.link-github{
     font-family: var(--FontPrimary);
     color: white;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
 }
-
-
-.projects-description {
+.link-github:hover{
+    color: #0076F3;
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+.projects-description{
     font-family: var(--FontSecondary);
     color: white;
-    font-size: 1.2rem;
-    font-weight: lighter;
+    font-size: 1rem;
+    padding: 20px 35px;
+    box-shadow: 0 10px 30px -15px #047eff7f;
+    background: #0075f33f;
+    border-radius: 10px;    
+    width: 500px; 
+    height: 300px; 
+    overflow: hidden; 
+    box-sizing: border-box; 
+    align-items: center;
 }
+.projects-img {
+    filter: grayscale(100%); 
+    transition: filter 0.5s; 
+  }
+  .projects-img:hover {
+    filter: none; 
+  }
+
+

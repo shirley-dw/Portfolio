@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <footer>
             <div className='footer-container'>
-                <div>
+                <div className='footer-info'>
                     <h2 className='footer-title'>Shirley Vokac</h2>
                     <span className="footer-subtitle">Alojado en Vercel<IoMdHeart className="heart"/> </span>
                 </div>
@@ -26,6 +26,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-copyright">
                     <p className="footer-subtitle">© 2023 - 2024 por vokacshirley.com</p>
+                    
                     <p className="footer-subtitle">All rights reserved</p>
                 </div>
             </div>
