@@ -5,7 +5,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #0076F3;
+    background-color: black;
     color: white;
     font-family: var(--FontPrimary);
     font-size: 1.2rem;

@@ -61,7 +61,7 @@
 }
 .projects-title {
     font-family: var(--FontPrimary);
-    color: #0076F3;
+    color: white;
     font-size: 2rem;
     text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
     padding: 10px;
@@ -84,8 +84,8 @@
     color: white;
     font-size: 1rem;
     padding: 20px 35px;
-    box-shadow: 0 10px 30px -15px #047eff7f;
-    background: #0075f33f;
+    box-shadow: 0 10px 30px -15px #6E1943;
+    background: rgba(110, 25, 67, 0.529);
     border-radius: 10px;    
     width: 500px; 
     height: 300px; 

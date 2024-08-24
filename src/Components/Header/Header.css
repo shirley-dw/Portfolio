@@ -13,7 +13,7 @@
     --PrimaryColor: #405D72;
     --SecondaryColor: #758694;
     --TertiaryColor: #F7E7DC;
-    --NavColor: linear-gradient(270deg, rgba(0,0,0,1) 0%, #0076F3 0%, rgba(0,0,0,0.9473039215686274) 44%);
+    --NavColor: linear-gradient(270deg, rgb(45, 44, 44) 0%, #6E1943 0%, rgba(0,0,0,0.9473039215686274) 44%);
     --FontPrimary: "Oswald", sans-serif;
     --FontSecondary: "Source Sans 3", sans-serif;
 }
@@ -39,7 +39,7 @@
 
 .navbar .logo-name {
     font-family: var(--FontPrimary);
-    color: #0076F3;
+    color: white;
     font-size: 1.5rem;
 
 }
