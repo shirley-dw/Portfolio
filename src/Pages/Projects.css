@@ -61,15 +61,14 @@
 }
 .projects-title {
     font-family: var(--FontPrimary);
-    color: white;
+    color: black;
     font-size: 2rem;
-    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
-    padding: 10px;
+
 }
 
 .link-github{
     font-family: var(--FontPrimary);
-    color: white;
+    color: black;
     font-size: 20px;
     text-decoration: none;
     cursor: pointer;
@@ -81,11 +80,11 @@
 }
 .projects-description{
     font-family: var(--FontSecondary);
-    color: white;
+    color: black;
     font-size: 1rem;
     padding: 20px 35px;
-    box-shadow: 0 10px 30px -15px #6E1943;
-    background: rgba(110, 25, 67, 0.529);
+    box-shadow: 0 10px 20px -15px #ffffff;
+    background: rgb(255, 255, 255);
     border-radius: 10px;    
     width: 500px; 
     height: 300px; 
@@ -93,10 +92,7 @@
     box-sizing: border-box; 
     align-items: center;
 }
-.projects-img {
-    filter: grayscale(100%); 
-    transition: filter 0.5s; 
-  }
+
   .projects-img:hover {
     filter: none; 
   }

@@ -25,17 +25,17 @@ const AboutMe = () => {
                     </p>
                     <p className='description-about'>Algunas de las tecnologías con las que he estado trabajando recientemente:</p>
                     <div className='section-icons'>
-                        <IoLogoJavascript style={{ width: '80px', height: '80px' }} className='icon' />
-                        <FaReact style={{ width: '80px', height: '80px' }} className='icon' />
-                        <RiHtml5Line style={{ width: '80px', height: '80px' }} className='icon' />
-                        <TbBrandTypescript style={{ width: '80px', height: '80px' }} className='icon' />
-                        <MdCss style={{ width: '80px', height: '80px' }} className='icon' />
+                        <IoLogoJavascript  className='icon' />
+                        <FaReact  className='icon' />
+                        <RiHtml5Line  className='icon' />
+                        <TbBrandTypescript  className='icon' />
+                        <MdCss  className='icon' />
                     </div>
 
                 </div>
 
                 <div className='section-img-about'>
-                <img src="./imagenes/1.png" alt="" />
+                <img src="./imagenes/1.png" alt=""className='profile-img' />
                 </div>
             </div>
         </section>
